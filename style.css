@@ -1,1 +1,291 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 90%;
+    margin: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.navigation{
+    display: flex;
+    list-style-type: none;
+align-items: center;    
+    
+    
+}
+.navigation li{
+    padding-top: 30px;
+   padding-left:  15px;
+    padding-right: 15px;
+    
+    
+}
+.navigation a{
+    color: black;
+    text-decoration: none;
+    
+}
+.navigation li:hover{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    
+}
+main{
+    width: 95%;
+    margin: auto;
+}
+.sec1{
+    margin-bottom: 5px;
+}
+form{
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+.pap{
+    margin-bottom: 15px;
+}
 
+.form i{
+    width: 50px;
+    height: 50px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0 0 15px;
+    
+  
+}
+.form .recherche{
+    border: none;
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+}
+::placeholder{
+    color: black;
+    font-weight: bolder;
+}
+.Rechercher{
+    color: white;
+    background-color: #0065FC;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0 15px 15px 0;
+    font-weight: bold;
+}
+body{
+    font-family: Raleway;
+}
+.first{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.filtres{
+    display: flex;
+    gap: 20px;
+    border: 2px solid #F2F2F2;
+    justify-content: center;
+    align-items: center;
+    padding:0 20px;
+    border-radius: 50px;
+    padding-left: 0px;
+
+}
+.filtre :hover{
+    color: white;
+    background-color: #0065FC;
+}
+
+.filtre .filtres i{
+    background-color: #DEEBFF;
+    color: #0065FC ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+   
+    border-radius: 50px;
+}
+.filtre{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+.info{
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.info i{
+    color: #0065FC;
+    border: 2px solid #F2F2F2;
+    padding: 7px;
+    border-radius:100px;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heb{
+    display: flex;
+    justify-content: space-between;
+}
+.hebergement{
+    width: 65%;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    
+   
+    
+}
+.hebergement h1{
+    padding: 20px 20px 20px 40px;
+    
+    
+}
+aside{
+    width: 30%;
+    margin-right: 50px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    
+}
+aside .chart{
+    padding: 20px;
+    
+}
+.choix{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.hot{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+   
+   
+    
+}
+
+.hot img{
+    border-radius: 10px 10px 0px 0px;
+    
+
+
+}
+.hot a h3{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    
+}
+.hot a p{
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.hot a{
+    
+    text-decoration: none;
+    color: black;
+}
+.afficher a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 40px;
+    
+}
+.afficher {
+   
+    padding: 0 40px;
+    padding-bottom: 30px;
+    
+}
+.bleu{
+    
+    color: #0065FC;
+    
+    padding-right: 0px;
+    font-size: 11px;
+    text-align: start;
+}
+.star{
+    color: #e7e7e7;
+    
+    font-size: 11px;
+}
+.chart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.populaire img{
+    border-radius: 10px  0px 0px 10px;
+    
+    
+
+
+}
+.populaire a h3{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    
+    
+}
+.populaire a p{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    
+
+}
+.populaire a{
+    
+    text-decoration: none;
+    color: black;
+}
+.populaire{
+    display: flex;
+    background-color: white;
+    border-top: 5px  solid white;
+    border-left: 5px  solid white;
+    border-right: 5px  solid white;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 90%;
+    
+}
+.populaires{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
