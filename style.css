@@ -150,7 +150,7 @@ body{
     justify-content: space-between;
 }
 .hebergement{
-    width: 65%;
+    width: 64%;
     background-color: #F2F2F2;
     border-radius: 10px;
     
@@ -280,6 +280,7 @@ aside .chart{
     align-items: center;
     margin-bottom: 30px;
     width: 90%;
+    padding-right: 15px;
     
 }
 .populaires{
@@ -288,4 +289,6 @@ aside .chart{
     justify-content: space-between;
     flex-wrap: wrap;
     margin: auto;
+    margin-bottom: -10px;
 }
+
