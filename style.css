@@ -413,3 +413,24 @@ aside .chart{
     color: black;
     padding: 0;
 }
+.pied{
+    display: flex;
+    gap: 250px;
+    padding: 30px;
+}
+footer{
+    background-color: #F2F2F2;
+    width: 97%;
+   
+}
+.deta h4{
+    padding-bottom: 20px;
+}
+.deta p{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.deta a{
+    color: black;
+    text-decoration: none;
+}
